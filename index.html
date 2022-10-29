@@ -7,6 +7,7 @@
     <meta name="author" content="Казарян Владислав">
     <title>Nike-project</title>
     <link rel="stylesheet" href="./pages/index.css">
+    <script src="./vendor/slider/slider.js" defer></script>
 </head>
 <body class="root">
     <header class="header">
@@ -29,6 +30,54 @@
         <section class="training">
             <span class="training__title">Тренинг — это не просто физическая активность</span>
             <p class="training__subtitle">Это практика для тела и разума, за которой стоят концентрация и дисциплина. Мэттью Уильямс выражает эту идею через чередование движения и осознанности. Исамайя Ффренч исследует свою способность совершать тяжёлые повторяющиеся действия с помощью йоги. Ив Тюмор превращает силовые тренировки в эксперимент по испытанию силы духа.</p>
+        </section>
+
+        <section class="goods">
+            <h2 class="goods__title">Товары</h2>
+            <div class="slider" data-slider data-autoplay="true" data-interval="11000">
+                <div class="slider__container">
+                    <div class="slider__items">
+                        <div class="slider__item goods__card goods__card_1">
+                            <button type="button" class="goods__buy-button">Купить</button>
+                        </div>
+
+                        <div class="slider__item goods__card goods__card_2">
+                            <button type="button" class="goods__buy-button">Купить</button>
+                        </div>
+
+                        <div class="slider__item goods__card goods__card_3">
+                            <button type="button" class="goods__buy-button">Купить</button>
+                        </div>
+
+                        <div class="slider__item goods__card goods__card_4">
+                            <button type="button" class="goods__buy-button">Купить</button>
+                        </div>
+
+                        <div class="slider__item goods__card goods__card_5">
+                            <button type="button" class="goods__buy-button">Купить</button>
+                        </div>
+
+                        <div class="slider__item goods__card goods__card_6">
+                            <button type="button" class="goods__buy-button">Купить</button>
+                        </div>
+
+                        <div class="slider__item goods__card goods__card_7">
+                            <button type="button" class="goods__buy-button">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider__control" data-slide="prev"></button>
+                <button class="slider__control" data-slide="next"></button>
+                <ol class="slider__indicators">
+                    <li class="slider__indicator" data-slide-to="0"></li>
+                    <li class="slider__indicator" data-slide-to="1"></li>
+                    <li class="slider__indicator" data-slide-to="2"></li>
+                    <li class="slider__indicator" data-slide-to="3"></li>
+                    <li class="slider__indicator" data-slide-to="4"></li>
+                    <li class="slider__indicator" data-slide-to="5"></li>
+                    <li class="slider__indicator" data-slide-to="6"></li>
+                  </ol>
+            </div>
         </section>
     </main>
 </body>

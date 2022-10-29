@@ -1,0 +1,73 @@
+.goods {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.goods__title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.25;
+}
+.goods__card {
+  background-size: cover;
+  background-position: center;
+  max-width: 326px;
+  height: 400px;
+}
+.goods__card_1 {
+  background-image: url(../../images/card_1.png);
+}
+.goods__card_2 {
+  background-image: url(../../images/card_2.png);
+}
+.goods__card_3 {
+  background-image: url(../../images/card_3.png);
+}
+.goods__card_4 {
+  background-image: url(../../images/card_4.png);
+}
+.goods__card_5 {
+  background-image: url(../../images/card_2.png);
+}
+.goods__card_6 {
+  background-image: url(../../images/card_4.png);
+}
+.goods__card_7 {
+  background-image: url(../../images/card_3.png);
+}
+.goods__buy-button {
+  width: 116px;
+  height: 40px;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 340px 0 0 20px;
+}
+.goods__buy-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .goods {
+    gap: 20px;
+  }
+  .goods__title {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}/*# sourceMappingURL=good.css.map */
