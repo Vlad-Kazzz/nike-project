@@ -7,6 +7,9 @@
 .photo-collage_first {
   background-image: url("../../images/photo-collage_1.png");
 }
+.photo-collage_second {
+  background-image: url("../../images/photo-collage_2.png");
+}
 
 @media screen and (max-width: 1024px) {
   .photo-collage {

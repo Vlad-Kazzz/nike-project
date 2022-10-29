@@ -11,6 +11,9 @@ $mobile-height: 180px;
     &_first{
         background-image: url('../../images/photo-collage_1.png');
     }
+    &_second{
+        background-image: url('../../images/photo-collage_2.png');
+    }
 }
 
 @media screen and (max-width: 1024px){
