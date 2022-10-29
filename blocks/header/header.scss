@@ -1,7 +1,7 @@
 $desktop: 1440px;
 $tablet: 768px;
 $mobile: 320px;
-$color: #0A0A0A;
+$header-color: #0A0A0A;
 
 $font-size-big: 64px;
 $font-size-small: 32px;
@@ -45,6 +45,7 @@ $font-size-small: 32px;
         padding: 0;
         margin-top: 132px;
         margin-left: 20px;
+        color: $header-color;
     }
 }
 

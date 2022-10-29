@@ -1,0 +1,20 @@
+.photo-collage {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 810px;
+}
+.photo-collage_first {
+  background-image: url("../../images/photo-collage_1.png");
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-collage {
+    height: 432px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .photo-collage {
+    height: 180px;
+  }
+}/*# sourceMappingURL=photo-collage.css.map */

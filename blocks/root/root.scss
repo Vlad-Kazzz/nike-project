@@ -1,10 +1,13 @@
 $background: #0A0A0A;
 $font-stack: 'Golos', Arial, Helvetica, sans-serif;
+$main-color: #FFFFFF;
 
 .root{
     background-color: $background;
     font-family: $font-stack;
+    font-style: normal;
     width: 100%;
     margin: 0 auto;
     padding: 0;
+    color: #FFFFFF;
 }
