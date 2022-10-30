@@ -1,3 +1,6 @@
+$desktop: 1440px;
+$tablet: 768px;
+$mobile: 320px;
 $desktop-height: 810px;
 $tablet-height: 432px;
 $mobile-height: 180px;
@@ -22,7 +25,7 @@ $mobile-height: 180px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px){
+@media screen and (min-width: $mobile) and (max-width: 425px){
     .photo-collage{
         height: $mobile-height;
     }
