@@ -7,6 +7,8 @@
   max-width: 100%;
 }
 .training__title {
+  margin: 0;
+  padding: 0;
   max-width: 460px;
   text-transform: uppercase;
   font-weight: 500;
@@ -26,15 +28,11 @@
   .training {
     gap: 10px;
   }
-}
-@media screen and (max-width: 768px) {
   .training__title {
     font-size: 24px;
     line-height: 1.33;
     max-width: 359px;
   }
-}
-@media screen and (max-width: 768px) {
   .training__subtitle {
     max-width: 359px;
   }
@@ -45,15 +43,11 @@
     gap: 20px;
     padding: 40px 20px;
   }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
   .training__title {
     max-width: 100%;
     font-size: 20px;
     line-height: 1.4;
   }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
   .training__subtitle {
     max-width: 100%;
   }
