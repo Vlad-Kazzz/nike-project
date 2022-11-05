@@ -1,6 +1,7 @@
-$desktop: 1440px;
-$tablet: 768px;
-$mobile: 320px;
+// $desktop: 1440px;
+// $tablet: 768px;
+// $mobile: 320px;
+@use '../../modules/variables' as v;
 
 .footer{
     padding: 0 0 80px;
@@ -15,7 +16,7 @@ $mobile: 320px;
     }
 }
 
-@media screen and (min-width: $mobile) and (max-width: 767px){
+@media screen and (min-width: v.$mobile) and (max-width: 767px){
     .footer{
         padding: 0 20px 40px;
     }

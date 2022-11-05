@@ -1,15 +1,16 @@
-$desktop: 1440px;
-$tablet: 768px;
-$mobile: 320px;
-$desktop-height: 810px;
-$tablet-height: 432px;
-$mobile-height: 180px;
+// $desktop: 1440px;
+// $tablet: 768px;
+// $mobile: 320px;
+// $desktop-height: 810px;
+// $tablet-height: 432px;
+// $mobile-height: 180px;
+@use '../../modules/variables' as v;
 
 .photo-collage{
     width: 100%;
     background-size: cover;
     background-position: center;
-    height: $desktop-height;
+    height: v.$desktop-height;
 
     &_first{
         background-image: url('../../images/photo-collage_1.png');
@@ -21,12 +22,12 @@ $mobile-height: 180px;
 
 @media screen and (max-width: 1024px){
     .photo-collage{
-        height: $tablet-height;
+        height: v.$tablet-height;
     }
 }
 
-@media screen and (min-width: $mobile) and (max-width: 425px){
+@media screen and (min-width: v.$mobile) and (max-width: 425px){
     .photo-collage{
-        height: $mobile-height;
+        height: v.$mobile-height;
     }
 }

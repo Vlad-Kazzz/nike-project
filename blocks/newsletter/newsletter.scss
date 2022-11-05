@@ -1,6 +1,8 @@
-$desktop: 1440px;
-$tablet: 768px;
-$mobile: 320px;
+// $desktop: 1440px;
+// $tablet: 768px;
+// $mobile: 320px;
+@use '../../modules/variables' as v;
+
 
 .newsletter{
     padding: 80px 0 40px;
@@ -79,7 +81,7 @@ $mobile: 320px;
     }
 }
 
-@media screen and (min-width: $mobile) and (max-width: 767px){
+@media screen and (min-width: v.$mobile) and (max-width: 767px){
     .newsletter{
         padding: 40px 20px 20px;
         gap: 20px;

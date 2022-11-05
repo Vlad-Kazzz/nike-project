@@ -1,15 +1,16 @@
-$background: #0A0A0A;
-$font-stack: 'Golos', Arial, Helvetica, sans-serif;
-$main-color: #FFFFFF;
-$max-width: 1440px;
+// $background: #0A0A0A;
+// $font-stack: 'Golos', Arial, Helvetica, sans-serif;
+// $main-color: #FFFFFF;
+// $max-width: 1440px;
+@use '../../modules/variables' as v;
 
 .root{
-    background-color: $background;
-    font-family: $font-stack;
+    background-color: v.$background;
+    font-family: v.$font-stack;
     font-style: normal;
     width: 100%;
-    max-width: $max-width;
+    max-width: v.$max-width;
     margin: 0 auto;
     padding: 0;
-    color: #FFFFFF;
+    color: v.$main-color;
 }
