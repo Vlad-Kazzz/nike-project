@@ -1,0 +1,73 @@
+@use '../../modules/variables' as v;
+
+.collection{
+    max-width: 100%;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    &__title{
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        color: v.$main-color;
+        font-style: normal;
+        font-weight: 500;
+        font-size: v.$font-size-main-big;
+        line-height: 1.25;
+    }
+
+
+    &__info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__about{
+        margin: 0;
+        padding: 0;
+        color: v.$main-color;
+        max-width: 690px;
+        font-size: v.$font-size-secondary;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    &__img{
+        width: 460px;
+        max-height: 246px;
+    }
+}
+
+@media screen and (min-width: v.$mobile) and (max-width: 767px){ 
+    .collection{ 
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+    .collection__info{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .collection__title{
+        font-size: v.$font-size-main-small;
+    }
+
+    .collection__img{
+        max-width: 100%;
+        max-height: 174px;
+    }
+}
+
+@media screen and (min-width: v.$tablet) and (max-width: 1024px){
+    .collection__info{
+        gap: 10px;
+    }
+}
