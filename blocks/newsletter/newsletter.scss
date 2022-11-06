@@ -1,8 +1,4 @@
-// $desktop: 1440px;
-// $tablet: 768px;
-// $mobile: 320px;
 @use '../../modules/variables' as v;
-
 
 .newsletter{
     padding: 80px 0 40px;
@@ -30,7 +26,7 @@
         text-align: center;
     }
 
-    &-form{
+    &__form{
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -92,7 +88,7 @@
             line-height: 1.25;  
         }
 
-        &-form{
+        &__form{
             flex-direction: column;
         }
 

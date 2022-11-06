@@ -22,7 +22,7 @@
   line-height: 1.5;
   text-align: center;
 }
-.newsletter-form {
+.newsletter__form {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -78,7 +78,7 @@
     font-size: 32px;
     line-height: 1.25;
   }
-  .newsletter-form {
+  .newsletter__form {
     flex-direction: column;
   }
   .newsletter__submit-button {

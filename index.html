@@ -12,7 +12,7 @@
 </head>
 <body class="root">
     <header class="header">
-        <button class="header__button"></button>
+        <button type="button" class="header__button"></button>
         <h1 class="header__title">NIKE X MMW TRAINING 4.0</h1>
     </header>
     <main class="content">
@@ -24,8 +24,8 @@
             </div>
         </section>
 
-        <section class="photo-collage photo-collage_first">
-            <!-- <img class="photo-collage__img" src="./images/photo-collage_1.png" alt="Фотоколлаж"> -->
+        <section class="photo-collage">
+            <img class="photo-collage__img" src="./images/photo-collage_1.png" alt="Фотоколлаж">
         </section>
 
         <section class="training">
@@ -39,31 +39,38 @@
                 <div class="slider__container">
                     <div class="slider__items">
                         <div class="slider__item goods__card goods__card_1">
-                            <button type="button" class="goods__buy-button">Купить</button>
+                            <img class="goods__card-img" src="./images/card_1.png" alt="Фотография товара">
+                            <a class="goods__buy-button" href="#">Купить</a>
                         </div>
 
                         <div class="slider__item goods__card goods__card_2">
-                            <button type="button" class="goods__buy-button">Купить</button>
+                            <img class="goods__card-img" src="./images/card_2.png" alt="Фотография товара">
+                            <a class="goods__buy-button" href="#">Купить</a>
                         </div>
 
                         <div class="slider__item goods__card goods__card_3">
-                            <button type="button" class="goods__buy-button">Купить</button>
+                            <img class="goods__card-img" src="./images/card_3.png" alt="Фотография товара">
+                            <a class="goods__buy-button" href="#">Купить</a>
                         </div>
 
                         <div class="slider__item goods__card goods__card_4">
-                            <button type="button" class="goods__buy-button">Купить</button>
+                            <img class="goods__card-img" src="./images/card_4.png" alt="Фотография товара">
+                            <a class="goods__buy-button" href="#">Купить</a>
                         </div>
 
                         <div class="slider__item goods__card goods__card_5">
-                            <button type="button" class="goods__buy-button">Купить</button>
+                            <img class="goods__card-img" src="./images/card_2.png" alt="Фотография товара">
+                            <a class="goods__buy-button" href="#">Купить</a>
                         </div>
 
                         <div class="slider__item goods__card goods__card_6">
-                            <button type="button" class="goods__buy-button">Купить</button>
+                            <img class="goods__card-img" src="./images/card_4.png" alt="Фотография товара">
+                            <a class="goods__buy-button" href="#">Купить</a>
                         </div>
 
                         <div class="slider__item goods__card goods__card_7">
-                            <button type="button" class="goods__buy-button">Купить</button>
+                            <img class="goods__card-img" src="./images/card_3.png" alt="Фотография товара">
+                            <a class="goods__buy-button" href="#">Купить</a>
                         </div>
                     </div>
                 </div>
@@ -85,14 +92,14 @@
             <p class="discipline__text">Дисциплина — упражнение, которое ты практикуешь ежедневно. Ты учишь свои разум и тело переносить суровые условия и достигать невозможного. Раскрой свою внутреннюю силу с новой коллекцией MMW, в которой идея дисциплины передается через высочайшее качество исполнения и исключительную выразительность.</p>
         </section>
 
-        <section class="photo-collage photo-collage_second">
-            <!-- <img class="photo-collage__img" src="./images/photo-collage_2.png" alt="Фотоколлаж"> -->
+        <section class="photo-collage">
+            <img class="photo-collage__img" src="./images/photo-collage_2.png" alt="Фотоколлаж">
         </section>
 
         <section class="newsletter" id="newsletter">
             <h2 class="newsletter__title">Подписаться</h2>
             <p class="newsletter__subtitle">Укажите свой email чтобы быть в курсе даты релиза, и других новостей о коллекции</p>
-            <form class="newsletter-form" name="newsletter-form">
+            <form class="newsletter__form" name="newsletter-form">
                 <input type="email" class="newsletter__input" minlength="5" maxlength="50" required placeholder="Введите email"> 
                 <button type="submit" class="newsletter__submit-button">Подписаться</button>
             </form>

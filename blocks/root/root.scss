@@ -1,7 +1,3 @@
-// $background: #0A0A0A;
-// $font-stack: 'Golos', Arial, Helvetica, sans-serif;
-// $main-color: #FFFFFF;
-// $max-width: 1440px;
 @use '../../modules/variables' as v;
 
 .root{
@@ -9,7 +5,7 @@
     font-family: v.$font-stack;
     font-style: normal;
     width: 100%;
-    max-width: v.$max-width;
+    max-width: v.$desktop;
     margin: 0 auto;
     padding: 0;
     color: v.$main-color;
