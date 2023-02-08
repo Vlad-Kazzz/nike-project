@@ -1,0 +1,12 @@
+@use '../../modules/variables' as v;
+
+.root{
+    background-color: v.$background;
+    font-family: v.$font-stack;
+    font-style: normal;
+    width: 100%;
+    max-width: v.$desktop;
+    margin: 0 auto;
+    padding: 0;
+    color: v.$main-color;
+}

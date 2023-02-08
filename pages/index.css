@@ -1,0 +1,25 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/collection/collection.css);
+
+@import url(../blocks/photo-collage/photo-collage.css);
+
+@import url(../blocks/training/training.css);
+
+@import url(../blocks/goods/goods.css);
+
+@import url(../blocks/slider/slider.css);
+
+@import url(../blocks/discipline/discipline.css);
+
+@import url(../blocks/newsletter/newsletter.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/popup/popup.css);

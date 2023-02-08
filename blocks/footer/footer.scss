@@ -1,0 +1,20 @@
+@use '../../modules/variables' as v;
+
+.footer{
+    padding: 0 0 80px;
+    
+    &__copyright{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: v.$mobile) and (max-width: 767px){
+    .footer{
+        padding: 0 20px 40px;
+    }
+}

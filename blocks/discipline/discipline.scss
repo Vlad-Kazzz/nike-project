@@ -1,0 +1,27 @@
+@use '../../modules/variables' as v;
+
+.discipline{
+    padding: 124px 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    &__text{
+        max-width: 50%;
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: v.$mobile) and (max-width: 767px){
+    .discipline{
+        padding: 64px 20px 40px;
+        
+        &__text{
+            max-width: 100%;
+        }
+    }
+}
